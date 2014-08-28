@@ -1,0 +1,237 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"class",
+				"classArray"
+			],
+			[
+				"style",
+				"stylesheet"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/chrome.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mickealm/Sites/Client/ac/Gruntfile.js",
+		"/Users/mickealm/Sites/Client/ac/app/_layouts/default.html",
+		"/Users/mickealm/Sites/Client/ac/app/_scss/main.scss",
+		"/Users/mickealm/Sites/Client/ac/app/_includes/svg-defs.svg",
+		"/Users/mickealm/Sites/Client/AtletCoaching/scss/style.scss",
+		"/Users/mickealm/Sites/Client/AtletCoaching/_config.yml",
+		"/Users/mickealm/Sites/Client/AtletCoaching/package.json",
+		"/Users/mickealm/Sites/Client/AtletCoaching/_layouts/document.html",
+		"/Users/mickealm/Sites/Client/AtletCoaching/_layouts/page-wrap.html",
+		"/Users/mickealm/Sites/Client/AtletCoaching/Gruntfile.js",
+		"/Users/mickealm/Sites/Client/AtletCoaching/Gruntfile_old.js",
+		"/Users/mickealm/Sites/Client/init/init/bower.json",
+		"/Users/mickealm/Sites/Client/AtletCoaching/js/global.js",
+		"/Users/mickealm/Sites/Client/AtletCoaching/_site/css/style.css",
+		"/Users/mickealm/Sites/Client/AtletCoaching/_includes/svg-defs.svg",
+		"/Users/mickealm/Sites/Client/AtletCoaching/svg/atletcoaching-logo.svg",
+		"/Users/mickealm/Sites/Client/AtletCoaching/index.html",
+		"/Users/mickealm/Sites/Client/AtletCoaching/README.md",
+		"/Users/mickealm/Sites/Client/AtletCoaching/.gitignore",
+		"/Users/mickealm/Sites/Client/AtletCoaching/Gemfile",
+		"/Users/mickealm/Sites/Client/AtletCoaching/.gruntfile",
+		"/Users/mickealm/Sites/Personal/mi40/app/css/style.scss",
+		"/Users/mickealm/Sites/Personal/mi40/app/index.html",
+		"/Users/mickealm/Sites/EPi/StyleGuide/_/css/ui/_swatches.scss",
+		"/Users/mickealm/Sites/EPi/StyleGuide/_/css/style.scss",
+		"/Users/mickealm/Sites/EPi/StyleGuide/index.html",
+		"/Users/mickealm/Sites/EPi/StyleGuide/styles.html",
+		"/Users/mickealm/Sites/EPi/StyleGuide/_/css/style.min (EPi iMac's conflicted copy 2014-01-15 (1)).css",
+		"/Users/mickealm/Library/Caches/Coda 2/D7F1FC11-3CF6-460B-AF94-645A3DDE71C5/styles.html",
+		"/Users/mickealm/Library/Caches/Coda 2/23A979BA-CFCB-402D-B976-3F187D8B0EFA/styles.html",
+		"/Users/mickealm/Sites/EPi/StyleGuide/classes.css",
+		"/Users/mickealm/Sites/EPi/StyleGuide/_/css/ui/_structure.scss",
+		"/Users/mickealm/Library/Application Support/Sublime Text 3/Packages/User/chrome.sublime-build",
+		"/Users/mickealm/Library/Application Support/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/Users/mickealm/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/mickealm/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/mickealm/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mickealm/Sites/Personal/macro/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"secondary",
+			"<span class=\"code-comment\"> ",
+			"<br />",
+			"</span>",
+			"                <span class=\"secondary\">",
+			">",
+			"<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<span class=\"code-comment\">",
+			"</span>",
+			" <span class=\"code-comment\">",
+			"",
+			"&gt;",
+			"&lt;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/mickealm/Sites/Client/AtletCoaching"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

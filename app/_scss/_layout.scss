@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    LAYOUT
+\*------------------------------------*/
+
+section { 
+    margin-bottom: $base-spacing-unit*2;
+    padding: $base-spacing-unit 0;
+}
+
+body { overflow-x: hidden; }
+
+.masthead {
+    background: url("../img/masthead-background.jpg") -520px bottom no-repeat;
+    background-size: auto;
+    height: 260px;
+    margin-bottom: $base-spacing-unit;
+    padding: $base-spacing-unit $half-spacing-unit;
+    position: relative;
+    text-align: center;
+    transition: height .2s ease;
+}
+
+
+.grid {
+    padding-left: $base-spacing-unit;
+    padding-right: $base-spacing-unit;
+}
+.section-about {
+    background: #f2f2f2;
+}
+.section-contact {
+    background: $brand-signal;
+    color: #fff;
+}
+
+.site-footer {
+    background: $brand-black;
+    color: #fff;
+    text-align: center;
+    font-size: $milli-size;
+    padding: $half-spacing-unit;
+}

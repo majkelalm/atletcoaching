@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    MODULES
+\*------------------------------------*/
+.text--center {
+    text-align: center;
+}
+.btn--wide {
+    padding-left: 6em;
+    padding-right: 6em;
+}
+.btn--signal {
+    background-color: $brand-signal;
+    color: #fff;
+}
+
+
+
+// Responsive SVG object
+//====================================================================================
+.responsive-svg-container {
+    float: left;
+    position: relative;
+}
+.responsive-svg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+// Logo
+//====================================================================================
+.logo--inverted {
+    fill: #fff;
+}
+
+
+
+// Masthead
+//====================================================================================
+.masthead-logo {
+    width: 100%;
+    
+    .dot {
+        height: 160px;
+    }
+}
+.masthead__menu {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 220px;
+    width: 100%;
+
+    .menu-icon {
+        fill: #fff;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+
+// About
+//====================================================================================
+$media__img-margin: -$base-spacing-unit*4;
+
+.section-about {
+    .media__img { width: 200px; }
+}
+
+.about--left { 
+
+    .media__img {
+        margin-left: $media__img-margin;
+        margin-right: $half-spacing-unit;
+    }
+}
+.about--right {
+    text-align: right;
+
+    .media__img {
+        margin-right: $media__img-margin;
+        margin-left: $half-spacing-unit;
+        transform: scaleX(-1);
+    }
+}
+
+
+
+// Testimonials
+//====================================================================================
+.testimonials-gallery {
+    li { 
+        height: 200px;
+        padding: $half-spacing-unit;
+        width: 200px;
+    }
+}
+
+
+// Testimonials
+//====================================================================================
+.section-contact {
+    h1 { border-color: #fff; }
+}
+
+
+
+// Footer
+//====================================================================================
+.site-footer__social-icon {
+    fill: #fff;
+    height: 50px;
+    transition: fill 1s ease;
+    width: 50px;
+    
+    &:hover {
+        fill: $brand-signal;
+    }
+}

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    STATES
+\*------------------------------------*/
+
+
+@include media-query(palm){
+    // Footer
+    //====================================================================================
+    .site-footer .nav {
+        // @extend doesn't work inside media-queries, so this is a duplicate of .nav--fit
+        display:table;
+        width:100%;
+
+        > li{
+            display:table-cell;
+
+            > a{
+                display:block;
+            }
+        }
+    }
+}
+
+@include media-query(lap-and-up){
+    .site-wrapper {
+        margin: 0 auto;
+        max-width: 1200px;
+        width: auto;
+    }
+
+
+    // Responsive Nav
+    //====================================================================================
+    .js .nav-collapse {
+        position: relative;
+    }
+    .js .nav-collapse.closed {
+        max-height: none;
+    }
+    .nav-toggle {
+        display: none;
+    }
+    .nav-collapse ul {
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .nav-collapse {
+      li,
+      a {
+        display: inline-block;
+        width: auto;
+      }
+
+      a {
+        font-size: $h3-size;
+        padding: 0 $base-spacing-unit;
+      }
+      a,
+      a:active,
+      a:visited {
+        border: 1px solid transparent;
+        color: #fff;
+      }
+
+      a:hover {
+        background: rgba(255,255,255,0.2);
+        border-color: #fff;
+      }
+    }
+
+
+    // Masthead
+    //====================================================================================
+    .masthead { 
+        background-position: center bottom;
+        height: 400px;
+        padding: $base-spacing-unit;
+        text-align: left;
+    }
+    .masthead-logo {
+        width: auto;
+
+        .dot {
+            height: 200px;
+        }
+    }
+    .masthead__menu {
+        bottom: $base-spacing-unit;
+        top: auto;
+    }
+    
+    
+
+    // Masthead
+    //====================================================================================
+    $media__img-margin: -$base-spacing-unit*7;
+
+    .section-about {
+        .media__img { width: auto; }
+    }
+    .about--left { 
+
+        .media__img {
+            margin-left: $media__img-margin;
+        }
+    }
+    .about--right {
+
+        .media__img {
+            margin-right: $media__img-margin;
+            transform: scaleX(-1);
+        }
+    }
+
+
+    // Footer
+    //====================================================================================
+    .site-footer {
+        li { margin-right: $base-spacing-unit; }
+        li:last-child { margin-right: 0; }
+    }
+}

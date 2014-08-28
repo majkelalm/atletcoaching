@@ -1,0 +1,52 @@
+/*! responsive-nav.js 1.0.32 by @viljamis */
+
+.nav-collapse ul {
+  background: $brand-black;
+  box-shadow: inset 0px 5px 10px rgba(0,0,0,0.5);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+.nav-collapse {
+  li,
+  a {
+    font-family: $brand-face;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  a {
+    padding: $half-spacing-unit/2;
+  }
+  a,
+  a:active,
+  a:visited {
+    color: #fff;
+  }
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+  user-select: none;
+}
